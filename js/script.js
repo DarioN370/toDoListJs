@@ -10,9 +10,11 @@ function adicionarTarefa(){
     if (tarefa == ""){// duas aspas é considerado vazio  -  Sinal de dois iguais é pra comparar igualdade
         let mensagemErro = "Digite uma tarefa para adiciona-la !!!!!!";  // definindo a variavel mensagem com a mensagem que eu quero 
         mensagem.textContent = mensagemErro  //aqui eu estou exibindo que a tarefa precisa ser adicionada
+        mensagem.style.color = "#a34743"
     } else {
         let mensagemSucesso = "Tarefa adicionada com sucesso.";  // definindo a variavel mensagem com a mensagem que eu quero 
         mensagem.textContent = mensagemSucesso; //aqui eu estou exibindo que a tarefa foi adicionada
+        mensagem.style.color = "#28a745" 
 
         const listaTarefas = document.getElementById("listaTarefas"); //aqui ele pega o elemento com o id listaTarefas e armazena na var listaTarefas
         let novaTarefa = document.createElement("li"); //vou criar o elemento que esta entre parenteses
