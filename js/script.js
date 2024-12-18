@@ -23,14 +23,5 @@ function adicionarTarefa(){
     }
 
 
-    
-
-
-    
-
-
-
-
-
     inputTarefa.value = ""; //aqui eu peço para depois que user digitar, e dps que o codigo rodar, eu mando ele esvaziar o campo de input
 };
