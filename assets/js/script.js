@@ -5,7 +5,6 @@ function adicionarTarefa(){
     
     const mensagem = document.getElementById("mensagem");
     
-
     // se o valor do input for vazio, então mostre uma mensagem de erro para o user 
     if (tarefa == ""){// duas aspas é considerado vazio  -  Sinal de dois iguais é pra comparar igualdade
         let mensagemErro = "Digite uma tarefa para adiciona-la !!!!!!";  // definindo a variavel mensagem com a mensagem que eu quero 
